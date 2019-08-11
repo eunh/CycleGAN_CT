@@ -10,8 +10,7 @@ A PyTorch implementation of cycleGAN for multiphase coronary CT angiography base
 [https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix]
 
 * Requirements
-  * OS
-  The package development version is tested on Windows operating systems with Anaconda.
+  * OS: The package development version is tested on Windows operating systems with Anaconda.
   * Python 3.5.5
   * PyTorch 0.3.1.post2
 
