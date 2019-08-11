@@ -1,0 +1,22 @@
+python train.py ^
+--dataroot # provide your own dataset path ^
+--name ldnet_res_t1_t8 ^
+--model cycle_gan ^
+--pool_size 0 ^
+--no_dropout ^
+--dataset_mode Cardiac_LD ^
+--fineSize 56 ^
+--display_winsize 56 ^
+--batchSize 10 ^
+--loadSize 256 ^
+--input_nc 1 ^
+--output_nc 1 ^
+--gpu_ids 0 ^
+--norm batch ^
+--init_type normal ^
+--identity 0.5 ^
+--niter 100 ^
+--niter_decay 60 ^
+--which_model_netG myLDnet ^
+--ngf 128 ^
+--display_port 8097

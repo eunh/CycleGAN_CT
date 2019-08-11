@@ -1,0 +1,17 @@
+python test_for_cardiac.py ^
+--dataroot .\test_samples ^
+--name ldnet_res_t1_t8 ^
+--model cycle_gan ^
+--no_dropout ^
+--dataset_mode Cardiac_LD ^
+--fineSize 56 ^
+--display_winsize 56 ^
+--loadSize 256 ^
+--input_nc 1 ^
+--output_nc 1 ^
+--gpu_ids 0 ^
+--norm batch ^
+--init_type normal ^
+--which_model_netG myLDnet ^
+--ngf 128 ^
+--which_epoch 160
