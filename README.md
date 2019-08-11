@@ -1,6 +1,7 @@
 Paper
 ===============
 * Cycle-consistent adversarial denoising network for multiphase coronary CT angiography
+  * Authors: Eunhee Kang, Hyun Jung Koo, Dong Hyun Yang, Joon Bum Seo, and Jong Chul Ye
   * published in Medical Physics (2018): [https://doi.org/10.1002/mp.13284]
 
 Implementation
