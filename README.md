@@ -7,7 +7,7 @@ Paper
 Implementation
 ===============
 A PyTorch implementation of cycleGAN for multiphase coronary CT angiography based on original cycleGAN code.
-[https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix] *Thanks for Jun-Yan Zhu and Taesung Park, and Tongzhou Wang.
+[https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix] (*Thanks for Jun-Yan Zhu and Taesung Park, and Tongzhou Wang.)
 
 * Requirements
   * OS: The package development version is tested on Windows operating systems with Anaconda.
